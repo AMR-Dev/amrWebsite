@@ -56,7 +56,11 @@ body, html {
 }
 
 #info h2 {
-    font-size: 38px;
+    font-size: 34px;
+}
+
+#staff h2 {
+    font-size: 34px;
 }
 
 #info p {
