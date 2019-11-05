@@ -68,7 +68,7 @@
                                     <a href="portfolio.html" class="btn btn-outline-light">Ver Portfolio</a>
                                 </div>
                                 <div class="col-sm-5 col-lg-3 align-self-start">
-                                    <a href="contract.html" class="btn btn-primary">Contr&aacute;tanos</a>
+                                    <a href="contact.html" class="btn btn-primary">Contr&aacute;tanos</a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
             <div class="row">
                 <div class="col-xl-4 col-md-6 col-12 mb-4">
                     <div class="card" style="">
-                        <img src="img/staff/ezM.png" class="card-img-top" alt="Foto de Ezequiel">
+                        <img src="img/staff/ezM.png" class="card-img-top" onclick="micro()" id="ezM" alt="Foto de Ezequiel">
                         <div class="card-body">
                             <div class="badges">
                                 <span class="badge badge-warning">Java</span>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="col-xl-4 col-md-6 col-12 mb-4">
                         <div class="card" style="">
-                            <img src="img/staff/naA.png" class="card-img-top" alt="Foto de Nahuel">
+                            <img src="img/staff/naA.png" class="card-img-top" id="naA" onclick="steve()" alt="Foto de Nahuel">
                             <div class="card-body">
                                 <div class="badges">
                                     <span class="badge badge-info">SQL</span>
@@ -144,10 +144,11 @@
                     </div>
                     <div class="col-xl-4 col-md-6 col-12 mb-4">
                         <div class="card" style="">
-                            <img src="img/staff/geE.png" class="card-img-top" alt="Foto de Geronimo">
+                            <img src="img/staff/geE.png" onclick="moyai()" id="geE" class="card-img-top" alt="Foto de Geronimo">
                             <div class="card-body">
                                 <div class="badges">
                                     <span class="badge badge-danger">Document Administrator</span>
+                                    <span class="badge badge-success">Graphic Design</span>
                                 </div>
                                 <h5 class="card-title">Ger&oacute;nimo Egger</h5>
                                 <p class="card-text">Estudiante encargado de la documentaci&oacute;n.</p>
@@ -162,7 +163,7 @@
                     </div>
                     <div class="col-xl-4 col-md-6 col-12 mb-4">
                         <div class="card" style="">
-                            <img src="img/staff/raR.png" class="card-img-top" alt="Foto de Rafael">
+                            <img src="img/staff/raR.png" id="raR" class="card-img-top" onclick="sid()" alt="Foto de Rafael">
                             <div class="card-body">
                                 <div class="badges">
                                     <span class="badge badge-dark">Infrastructure</span>
@@ -197,7 +198,7 @@
                 <div class="social-network col-12 col-md-6 pb-5 pb-md-0 text-center d-flex justify-content-center align-items-center">
                     <a class="ml-4 mr-4" href="https://github.com/AMR-Dev"><img src="img/gh.png" alt=""></a>
                     <a class="ml-4 mr-4" href="#"><img src="img/tw.png" alt=""></a>
-                    <a class="ml-4 mr-4" href="#"><img src="img/wpp.png" alt=""></a>
+                    <a class="ml-4 mr-4" href="https://wa.me/+59899117514"><img src="img/wpp.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -226,5 +227,20 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>        
+        function sid() { 
+            document.getElementById("raR").src = 'img/staff/raR2.png'; 
+        }
+        function moyai() { 
+            document.getElementById("geE").src = 'img/staff/geE2.png'; 
+        }
+        function steve() { 
+            document.getElementById("naA").src = 'img/staff/naA2.png'; 
+        }
+        function micro() { 
+            document.getElementById("ezM").src = 'img/staff/ezM2.png'; 
+        }
+
+    </script>  
   </body>
 </html>
