@@ -117,4 +117,6 @@ body, html {
     background-color: #212121 !important;;
 }
 
-
+#portfolio .card {
+    max-width: 500px;
+}
